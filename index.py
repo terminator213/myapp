@@ -27,7 +27,7 @@ try:
         sleep(2)
         pyautogui.hotkey('alt','shift', 'c') # Navigate to Chatiing Option
         sleep(2)
-        pyautogui.typewrite(my_msg)
+        pyautogui.typewrite(my_msg)# to typeout the required message
         sleep(2)
         pyautogui.hotkey('enter')
 except Exception as e:
