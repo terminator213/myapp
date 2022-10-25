@@ -10,7 +10,7 @@ try:
     my_msg='Message you want to Send to everyone in teams'
     
     df = read_excel(file_name, sheet_name = my_sheet)
-    email=df["Email ID"]
+    email=df["Email ID"] #Field Name Mentioned in the Excel for Email.
     print(email)
 
     # open MS Teams application
